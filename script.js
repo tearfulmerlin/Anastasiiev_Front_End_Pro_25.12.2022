@@ -25,7 +25,7 @@ alert(doMath(x, znak, y));*/
 
 //Завдання 3:
 
-function showArr() {
+/*function showArr() {
     let arr1 = [];
     let message1 = prompt('how many items do you want to enter main arr?');
 
@@ -44,6 +44,19 @@ function showArr() {
     console.log(arr1);
 };
 showArr();
+*/
+
+
+//Завдання 4:
+
+let message1 = prompt('enter your string');
+let message2 = prompt('enter your symbol');
+
+function showText() {
+    return message1.replace(message2)
+};
+console.log(showText());
+
 
 
 
